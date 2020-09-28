@@ -1,0 +1,161 @@
+*,
+*::before,
+*::after {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	box-sizing: border-box;
+}
+ol li,
+ul li {
+	list-style: none;
+}
+a,
+a:visited {
+	text-decoration: none;
+}
+a:hover {
+	text-decoration: none;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+	font-weight: inherit;
+	font-size: inherit;
+}
+img {
+	vertical-align: top;
+}
+
+html,
+body {
+	font-size: 16px;
+	line-height: 1;
+	min-height: 100%;
+}
+/* -------------- */
+.wrapper {
+	height: 100%;
+	overflow: hidden;
+}
+.container {
+	max-width: 841px;
+	margin: 0 auto;
+}
+/* -------------- */
+.lending {
+	background: #e8e8e8 url("../img/bg.png") 706px 146px no-repeat;
+	padding: 168px 0 137px 0;
+}
+.lending__up {
+	margin: 0 auto;
+	max-width: 721px;
+}
+
+.lending__subtitle {
+	text-align: center;
+	opacity: 0.6;
+	color: #273d46;
+	font-family: "Arial MT";
+	font-size: 14px;
+	font-weight: 400;
+	text-transform: uppercase;
+	letter-spacing: 2.8px;
+	margin: 0px 0px 28px 0px;
+}
+.lending__title {
+	color: #273d46;
+	font-family: "Times New Roman PSMT";
+	font-size: 36px;
+	font-weight: 400;
+	line-height: 50px;
+	text-align: center;
+
+	margin: 0px 0px 77px 0px;
+}
+.lending__image {
+	border: 10px solid white;
+	box-shadow: 0 15px 65px rgba(15, 16, 16, 0.15);
+	margin: 0px 0px 97px 0px;
+}
+.lending__down {
+	max-width: 750px;
+	margin: 0 auto;
+}
+.lending__text {
+	opacity: 0.8;
+	color: #273d46;
+	font-family: "Times New Roman";
+	font-size: 24px;
+	line-height: 40px;
+
+	margin: 0px 0px 65px 0px;
+}
+.lending__text p {
+	margin: 0 0 70px 0;
+}
+.lending__text p:last-child {
+	margin: 0;
+}
+.lending__list {
+	margin: 0px 0px 60px 0px;
+}
+
+.list {
+	text-shadow: 0 1px 0 rgba(0, 0, 0, 0.3);
+	color: #273d46;
+	font-family: "Arial MT";
+	font-size: 20px;
+	font-weight: 400;
+	line-height: 36px;
+}
+.list li {
+	background: url("../img/check.png") 0 8px no-repeat;
+	padding: 0 0 0 36px;
+}
+
+.list li span {
+	color: #80b7b3;
+	font-family: "Arial MT";
+	font-size: 20px;
+	font-weight: 400;
+	line-height: 36px;
+}
+
+.list li.bold {
+	color: #273d46;
+	font-family: "Arial MT";
+	font-size: 20px;
+	font-weight: bold;
+}
+
+
+.opas {
+	opacity: 0.3;
+	color: #273d46;
+	font-family: "Arial MT";
+	font-size: 20px;
+	font-weight: 400;
+	line-height: 36px;
+	text-decoration: line-through;
+}
+
+.lending__button {
+	box-shadow: 0 6px 40px rgba(128, 183, 179, 0.54);
+	background-color: #80b7b3;
+	color: #ffffff;
+	font-family: "Arial MT";
+	font-size: 14px;
+	text-transform: uppercase;
+	letter-spacing: 2.8px;
+	padding: 15px 27px;
+	border-radius: 25px;
+}
+
+.lending__button span {
+	background: url("../img/arrow.png") right 0 no-repeat;
+	padding: 0px 30px 0px 0px;
+}
